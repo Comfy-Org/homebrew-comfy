@@ -8,6 +8,6 @@ Comfy CLI can be easily installed using Homebrew:
 
 ```bash
 brew tap Comfy-Org/comfy-cli
-brew install comfy-cli
+brew install comfy-org/comfy-cli/comfy-cli
 ```
 

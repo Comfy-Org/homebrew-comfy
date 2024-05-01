@@ -7,7 +7,7 @@ A command-line interface to streamline interactions with the Comfy platform, ena
 Comfy CLI can be easily installed using Homebrew:
 
 ```bash
-brew tap Comfy-Org/comfy
-brew install comfy
+brew tap Comfy-Org/comfy-cli
+brew install comfy-cli
 ```
 

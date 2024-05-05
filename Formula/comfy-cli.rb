@@ -3,8 +3,8 @@ class ComfyCli < Formula
 
   desc "Shiny new formula"
   homepage "None"
-  url "https://github.com/Comfy-Org/comfy-cli/archive/refs/tags/v0.0.15.tar.gz"
-  sha256 "6158e4bab18502a0ff00d9045aab34398c7366f9edfe1883a9cc3fa9c064b32a"
+  url "https://github.com/Comfy-Org/comfy-cli/archive/refs/tags/v0.0.16.tar.gz"
+  sha256 "a6ff8f131e3680f98cb6c6264a653ce4b8efc6b37f7f524416088dfca589a9b6"
 
   depends_on "python3"
 

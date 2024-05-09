@@ -1,3 +1,13 @@
+class ComfyCli < Formula
+  include Language::Python::Virtualenv
+
+  desc "Shiny new formula"
+  homepage "None"
+  url "https://files.pythonhosted.org/packages/44/6a/bdee98f855b528be154cc1ab48a7c7d78237716012a90268c0ce62fb1f7b/comfy_cli-0.0.21.dev4.tar.gz"
+  sha256 "91d70d3a62d999bffb7ba3489d03ab0c92de4439261db641a50da70337235e32"
+
+  depends_on "python3"
+
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
     sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
@@ -16,11 +26,6 @@
   resource "click" do
     url "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz"
     sha256 "ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
-  end
-
-  resource "comfy-cli" do
-    url "https://files.pythonhosted.org/packages/a0/32/aa315d9e0608dc7a45f1e35be3be20e5da3184db6394773e75a9ee9d9415/comfy_cli-0.0.21.dev3.tar.gz"
-    sha256 "1e584d8a246bffc5a9e25475add0bfc982dd34d02ce25b94365c9b8135456893"
   end
 
   resource "exceptiongroup" do
@@ -157,3 +162,13 @@
     url "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz"
     sha256 "72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"
   end
+
+  def install
+    virtualenv_create(libexec, "python3")
+    virtualenv_install_with_resources
+  end
+
+  test do
+    false
+  end
+end

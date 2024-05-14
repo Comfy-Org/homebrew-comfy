@@ -3,8 +3,8 @@ class ComfyCli < Formula
 
   desc "Shiny new formula"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/4b/45/e27973af80f263fce2cfb3e8bb687e17198cdb2dadd0295e726877e72a3f/comfy_cli-0.0.21.tar.gz"
-  sha256 "8c6594dc4c72a6d2408cf655a12836071a745b67ca58774baa206e34215f6969"
+  url "https://files.pythonhosted.org/packages/49/d2/45dc35393571b90b925b08637401f5b8c3c5bf5dfd0e853e82b9403216a2/comfy_cli-0.0.23.tar.gz"
+  sha256 "935ac48b2f65d5f99d9824c10fcfa3a6e52cf709c46e84ed58cc64ccdcbbe3f0"
 
   depends_on "python3"
 
@@ -71,6 +71,11 @@ class ComfyCli < Formula
   resource "mixpanel" do
     url "https://files.pythonhosted.org/packages/bd/a3/9d71562db2107da31be6a988cac88cd1be11364d103b618a98ba92d2487b/mixpanel-4.10.1.tar.gz"
     sha256 "29a6b5773dd34f05cf8e249f4e1d16e7b6280d6b58894551ce9a5aad7700a115"
+  end
+
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/ee/b5/b43a27ac7472e1818c4bafd44430e69605baefe1f34440593e0332ec8b4d/packaging-24.0.tar.gz"
+    sha256 "eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9"
   end
 
   resource "pathspec" do

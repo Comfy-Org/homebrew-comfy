@@ -3,8 +3,8 @@ class ComfyCli < Formula
 
   desc "Shiny new formula"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/2f/5a/6f99beb647e844b09aac192b24ecb71732b1a5b51d2fe82192d62fbdf615/comfy_cli-0.0.24.tar.gz"
-  sha256 "41d6b9197d0b9887eb9df6f5e31bb27edb52ee456f0db1bb6274dc938c140778"
+  url "https://files.pythonhosted.org/packages/cc/57/6a4970e62fbed99a872fedf65dc697be8b986addb291aa5f447ac644f547/comfy_cli-0.0.26.tar.gz"
+  sha256 "04d93207a35dc4ef84ea3c291f0cfb18976b1bb0c8aee73229c7d4386235d2b7"
 
   depends_on "python3"
 
@@ -109,8 +109,8 @@ class ComfyCli < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
-    sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
+    url "https://files.pythonhosted.org/packages/d8/c1/f32fb7c02e7620928ef14756ff4840cae3b8ef1d62f7e596bc5413300a16/requests-2.32.1.tar.gz"
+    sha256 "eb97e87e64c79e64e5b8ac75cee9dd1f97f49e289b083ee6be96268930725685"
   end
 
   resource "rich" do

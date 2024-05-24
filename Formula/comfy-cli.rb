@@ -3,8 +3,8 @@ class ComfyCli < Formula
 
   desc "Shiny new formula"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/4c/7e/eda29bf87a1626f7503d62a1d79bca98aea538e75319e6830b7a5801122c/comfy_cli-0.27.tar.gz"
-  sha256 "f14aaa73143efe0188482524fdef155a8a6e11530701023ad22707f46de8ebbc"
+  url "https://files.pythonhosted.org/packages/10/16/469e0f5edb9ea5ca3ecf477637a04824605f2b937274b4917657e79011e4/comfy_cli-0.0.29.tar.gz"
+  sha256 "7d6e2df1ee6aa01c408e7e09222461ae51f1ee8174610121c2320137972d7d0f"
 
   depends_on "python3"
 
@@ -109,8 +109,8 @@ class ComfyCli < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/d8/c1/f32fb7c02e7620928ef14756ff4840cae3b8ef1d62f7e596bc5413300a16/requests-2.32.1.tar.gz"
-    sha256 "eb97e87e64c79e64e5b8ac75cee9dd1f97f49e289b083ee6be96268930725685"
+    url "https://files.pythonhosted.org/packages/86/ec/535bf6f9bd280de6a4637526602a146a68fde757100ecf8c9333173392db/requests-2.32.2.tar.gz"
+    sha256 "dd951ff5ecf3e3b3aa26b40703ba77495dab41da839ae72ef3c8e5d8e2433289"
   end
 
   resource "rich" do
@@ -149,8 +149,8 @@ class ComfyCli < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
-    sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
+    url "https://files.pythonhosted.org/packages/ce/6a/aa0a40b0889ec2eb81a02ee0daa6a34c6697a605cf62e6e857eead9e4f85/typing_extensions-4.12.0.tar.gz"
+    sha256 "8cbcdc8606ebcb0d95453ad7dc5065e6237b6aa230a31e81d0f440c30fed5fd8"
   end
 
   resource "urllib3" do
